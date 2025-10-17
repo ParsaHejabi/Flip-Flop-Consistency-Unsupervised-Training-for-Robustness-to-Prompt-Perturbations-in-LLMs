@@ -2,6 +2,8 @@
 
 By Parsa Hejabi, Elnaz Rahmati, Alireza Salkhordeh Ziabari, Morteza Dehghani - University of Southern California
 
+ArXiv preprint 👉 [https://arxiv.org/abs/2510.14242](https://arxiv.org/abs/2510.14242)
+
 The repository will be updated with the code soon. Stay tuned!
 
 <p align="center">
