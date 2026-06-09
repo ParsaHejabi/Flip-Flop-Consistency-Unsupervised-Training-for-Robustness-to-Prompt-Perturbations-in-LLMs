@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Flip-Flop Consistency: Unsupervised Training for Robustness to Prompt Perturbations in LLMs"
+type: software
+authors:
+  - family-names: Hejabi
+    given-names: Parsa
+  - family-names: Rahmati
+    given-names: Elnaz
+  - family-names: Ziabari
+    given-names: Alireza S.
+  - family-names: Dehghani
+    given-names: Morteza
+repository-code: "https://github.com/ParsaHejabi/Flip-Flop-Consistency-Unsupervised-Training-for-Robustness-to-Prompt-Perturbations-in-LLMs"
+url: "https://arxiv.org/abs/2510.14242"
+preferred-citation:
+  type: article
+  title: "Flip-Flop Consistency: Unsupervised Training for Robustness to Prompt Perturbations in LLMs"
+  authors:
+    - family-names: Hejabi
+      given-names: Parsa
+    - family-names: Rahmati
+      given-names: Elnaz
+    - family-names: Ziabari
+      given-names: Alireza S.
+    - family-names: Dehghani
+      given-names: Morteza
+  year: 2025
+  url: "https://arxiv.org/abs/2510.14242"
