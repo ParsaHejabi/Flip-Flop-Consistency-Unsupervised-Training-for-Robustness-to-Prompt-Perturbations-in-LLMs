@@ -2,28 +2,49 @@ cff-version: 1.2.0
 message: "If you use this software, please cite the paper below."
 title: "Flip-Flop Consistency: Unsupervised Training for Robustness to Prompt Perturbations in LLMs"
 type: software
+license: Apache-2.0
 authors:
   - family-names: Hejabi
     given-names: Parsa
   - family-names: Rahmati
     given-names: Elnaz
-  - family-names: Ziabari
-    given-names: Alireza S.
+  - family-names: Salkhordeh Ziabari
+    given-names: Alireza
   - family-names: Dehghani
     given-names: Morteza
 repository-code: "https://github.com/ParsaHejabi/Flip-Flop-Consistency-Unsupervised-Training-for-Robustness-to-Prompt-Perturbations-in-LLMs"
-url: "https://arxiv.org/abs/2510.14242"
+url: "https://aclanthology.org/2026.acl-long.71/"
 preferred-citation:
-  type: article
+  type: conference-paper
   title: "Flip-Flop Consistency: Unsupervised Training for Robustness to Prompt Perturbations in LLMs"
   authors:
     - family-names: Hejabi
       given-names: Parsa
     - family-names: Rahmati
       given-names: Elnaz
-    - family-names: Ziabari
-      given-names: Alireza S.
+    - family-names: Salkhordeh Ziabari
+      given-names: Alireza
     - family-names: Dehghani
       given-names: Morteza
-  year: 2025
-  url: "https://arxiv.org/abs/2510.14242"
+  editors:
+    - family-names: Liakata
+      given-names: Maria
+    - family-names: Moreira
+      given-names: Viviane P.
+    - family-names: Zhang
+      given-names: Jiajun
+    - family-names: Jurgens
+      given-names: David
+  collection-title: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+  collection-type: proceedings
+  conference:
+    name: "64th Annual Meeting of the Association for Computational Linguistics"
+    location: "San Diego, California, United States"
+  publisher:
+    name: "Association for Computational Linguistics"
+  year: 2026
+  month: 7
+  start: 1571
+  end: 1587
+  isbn: "979-8-89176-390-6"
+  url: "https://aclanthology.org/2026.acl-long.71/"

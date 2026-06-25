@@ -1,7 +1,7 @@
 # Flip-Flop Consistency
 
 Official code for **Flip-Flop Consistency: Unsupervised Training for Robustness
-to Prompt Perturbations in LLMs**, accepted at ACL 2026.
+to Prompt Perturbations in LLMs**, published at ACL 2026.
 
 Flip-Flop Consistency (F2C) trains a model without gold labels by combining:
 
@@ -10,7 +10,7 @@ Flip-Flop Consistency (F2C) trains a model without gold labels by combining:
 2. **Selective representation alignment:** aligns lower-confidence and
    non-majority prompt variations toward confident majority voters.
 
-Paper: [arXiv:2510.14242](https://arxiv.org/abs/2510.14242)
+Paper: [ACL Anthology](https://aclanthology.org/2026.acl-long.71/) ([PDF](https://aclanthology.org/2026.acl-long.71.pdf))
 
 <p align="center">
   <img src="./figures/thumbnail.png" alt="Flip-Flop Consistency paper thumbnail" width="700">
@@ -102,18 +102,36 @@ known reproducibility constraints are documented in
 ## Citation
 
 ```bibtex
-@misc{hejabi2025flipflopconsistencyunsupervisedtraining,
-  title={Flip-Flop Consistency: Unsupervised Training for Robustness to Prompt Perturbations in LLMs},
-  author={Parsa Hejabi and Elnaz Rahmati and Alireza S. Ziabari and Morteza Dehghani},
-  year={2025},
-  eprint={2510.14242},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL},
-  url={https://arxiv.org/abs/2510.14242}
+@inproceedings{hejabi-etal-2026-flip,
+    title = "Flip-Flop Consistency: Unsupervised Training for Robustness to Prompt Perturbations in {LLM}s",
+    author = "Hejabi, Parsa  and
+      Rahmati, Elnaz  and
+      Salkhordeh Ziabari, Alireza  and
+      Dehghani, Morteza",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.acl-long.71/",
+    pages = "1571--1587",
+    ISBN = "979-8-89176-390-6",
+    abstract = "Large Language Models (LLMs) often produce inconsistent answers when faced with different phrasings of the same prompt. In this paper, we propose Flip-Flop Consistency (F$^2$C), an unsupervised training method that improves robustness to such perturbations. F$^2$C is composed of two key components. The first, Consensus Cross-Entropy (CCE), uses a majority vote across prompt variations to create a hard pseudo-label.
+The second is a representation alignment loss that pulls lower-confidence and non-majority predictors toward the consensus established by high-confidence, majority-voting variations. We evaluate our method on 11 datasets spanning four NLP tasks, with 4{--}15 prompt variations per dataset. On average, F$^2$C raises observed agreement by 11.62{\%}, improves mean $F_1$ by 8.94{\%}, and reduces performance variance across formats by 3.29{\%}.
+In out-of-domain evaluations, F$^2$C generalizes effectively, increasing $\overline{F_1}$ and agreement while decreasing variance across most source-target pairs. Finally, when trained on only a subset of prompt perturbations and evaluated on held-out formats, F$^2$C consistently improves both performance and agreement while reducing variance. These findings highlight F$^2$C as an effective unsupervised method for enhancing LLM consistency, performance, and generalization under prompt perturbations."
 }
 ```
 
 ## License
 
-A source-code license has not yet been selected. Dataset and model use remains
-subject to each upstream resource's license.
+This repository's source code is licensed under the Apache License 2.0. See
+[`LICENSE`](LICENSE).
+
+The ACL-published paper and paper-derived materials are licensed by ACL under
+the Creative Commons Attribution 4.0 International License (CC BY 4.0). Dataset,
+model, PromptSource template, and other external-resource use remains subject to
+each upstream resource's license.
